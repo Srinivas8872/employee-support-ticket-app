@@ -1,0 +1,22 @@
+{
+  "name": "employee-support-ticket-app",
+  "version": "1.0.0",
+  "description": "Educational full-stack Employee Support Ticket Management System prototype",
+  "private": true,
+  "scripts": {
+    "install:server": "npm --prefix server install",
+    "install:client": "npm --prefix client install",
+    "install:all": "npm run install:server && npm run install:client",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "test:server": "npm --prefix server test"
+  },
+  "keywords": [
+    "mern",
+    "ticket-system",
+    "student-demo"
+  ],
+  "author": "",
+  "license": "ISC"
+}
